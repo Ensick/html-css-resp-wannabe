@@ -129,4 +129,50 @@ img {
  ************************************************/
 
 
-@media 
+@media screen and (max-width: 480px){
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.lessons .col {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.steps {
+    margin: 0;
+    padding: 3rem 0;
+    color: #232946;
+    background: #eebbc3;
+}
+
+.steps .col {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.why-us {
+    padding: 3rem 0;
+    margin-bottom: 0;
+    background-color: #202023;
+}
+
+.why-us .col-left {
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+.why-us .col-right {
+    width: 100%;
+}
+
+}
+
